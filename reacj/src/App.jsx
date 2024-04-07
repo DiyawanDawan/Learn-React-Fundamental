@@ -1,13 +1,14 @@
-import Button from "./components/Elemets/Buttons/Index";
+// import LoginPage from "./pages/login";
+import ListNavItem from "./components/Fragments/ListNavItem";
+import RegisterPage from "./pages/register";
 
 // Function  Componen
 function App() {
   return (
-    <div className="flex justify-center text-tahiti min-h-screen items-center bg-lime-100">
-      <div className="flex gap-x-8">
-        <Button variantBg="bg-amber-900">Close menu</Button>
-        <Button variantBg="bg-cyan-900" >Open Menu</Button>
-        <Button ></Button>
+    <div className=" mx-auto">
+    <ListNavItem />
+      <div className="flex justify-center text-tahiti min-h-screen items-center">
+        <RegisterPage></RegisterPage>
       </div>
     </div>
   );
