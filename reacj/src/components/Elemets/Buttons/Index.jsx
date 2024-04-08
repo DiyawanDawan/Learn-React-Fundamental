@@ -4,7 +4,7 @@ const Button = (props) => {
     // eslint-disable-next-line react/prop-types
     const {classname = "bg-blue-900", children = "..."} = props
     return (
-      <button type="button" className={`-m-2.5 rounded-md p-2.5 ${classname}  text-slite-500 text-neutral-50 active:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500 w-full`}>
+      <button type="button" className={` rounded-md p-2.5 ${classname}  text-slite-500 text-neutral-50 active:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-500 w-full`}>
         {children}
       </button>
     )
