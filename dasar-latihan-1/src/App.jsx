@@ -1,5 +1,7 @@
-import FilterableProductTable from "./FilterableProductTable"
+// import FilterableProductTable from "./FilterableProductTable"
 // import SayHalo from "./SayHalo"
+
+import News from "./components/News"
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <SayHalo name="Ucup" company="PT Internasiol Bata">Welcome Back</SayHalo>
       
     </h1> */}
-    <FilterableProductTable></FilterableProductTable>
+    {/* <FilterableProductTable></FilterableProductTable> */}
+    <News />
     </div>
   )
 }
