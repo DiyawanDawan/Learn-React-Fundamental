@@ -15,3 +15,61 @@
     background-color: #f9f9f9;
   }
 }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #e6e6e6;
+  /* color: #00000022; */
+}
+
+.bookList {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px){
+  .bookList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.book {
+  background-color: #fff;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  text-align: center;
+  /* color: #213547; */
+}
+
+.book img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.4rem 0.4rem 0 0;
+
+}
+.book h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.book h4 {
+  color: #8daaec;
+  font-size: 0.75;
+  letter-spacing: 2px;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: #f1ff74;
+  padding: 10px;
+  /* width: 100%; */
+  margin: 1rem;
+  border-radius: 0.4rem;
+}
