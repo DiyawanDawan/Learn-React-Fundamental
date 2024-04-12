@@ -45,6 +45,7 @@ body {
   background-color: #fff;
   border-radius: 0.6rem;
   padding: 2rem;
+  position: relative;
   text-align: center;
   /* color: #213547; */
 }
@@ -52,12 +53,14 @@ body {
 .book img{
   width: 100%;
   object-fit: cover;
+  padding-top: 1rem;
   border-radius: 0.4rem 0.4rem 0 0;
 
 }
 .book h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
+
 }
 .book h4 {
   color: #8daaec;
@@ -72,4 +75,21 @@ button {
   /* width: 100%; */
   margin: 1rem;
   border-radius: 0.4rem;
+}
+
+.number {
+  padding: 0.2rem;
+  border-radius: 0.7rem 0 ;
+  background-color: rgb(243, 116, 116);
+  position: absolute;
+  font-size: 1.5rem;
+  top: 0;
+  left: 0;
+}
+h1 {
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  line-height: 1rem;
 }
