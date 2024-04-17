@@ -2,9 +2,9 @@ import ListNavItem from "../../Fragments/ListNavItem";
 import NavigationAuth from "../../Fragments/NavigationAuth";
 
 const AoutLayout = (prop) => {
-    const { children, titel, type } = prop
-    console.log(prop);
-    console.log(prop);
+    const { children, titel, type } = prop;
+    console.log(prop.children);
+    // console.log(prop);
     return (
         <>
             <ListNavItem/>
