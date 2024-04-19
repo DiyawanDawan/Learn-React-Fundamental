@@ -11,7 +11,7 @@ const JobListings = ({ isHome = false }) => {
 
   const [jobs, setJobs] = useState([])
   const [loading, setLoading] = useState(true);
-  us2eEffect(() => {
+  useEffect(() => {
     const apiUrl = isHome ? '/api/jobs?_limit=3' : '/api/jobs'
     const fetchJobs = async () => {
       try {
