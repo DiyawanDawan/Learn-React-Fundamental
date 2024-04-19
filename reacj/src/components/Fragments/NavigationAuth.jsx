@@ -12,7 +12,6 @@ const NavigationAuth = ({ type }) => {
                         Register
                     </Link>
                 )
-
             }
             {
                 type === 'Register' && (
